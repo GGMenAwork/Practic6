@@ -403,7 +403,7 @@ body {
     flex-direction: column;
   }
   .main_menu.disp {
-background:#322952;
+background:#8e899e;
 padding: 50px 20px;
   }
   .main_menu.disp a{
@@ -447,7 +447,7 @@ padding: 50px 20px;
 
   .burger::after { bottom:0 }
 
-  .burger.active span {transform: scale(0)};
+  .burger.active span {transform: scale(0)}
   .burger.active::before{
     top: 50%;
     transform: rotate(-45deg) translate(0,-50%);
