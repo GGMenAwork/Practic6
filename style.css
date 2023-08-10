@@ -188,8 +188,52 @@ body {
 
 @media (max-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 750px;
     margin: 0px auto;
+  }
+  body {
+    background: linear-gradient(
+      to bottom,
+      rgb(240, 240, 240) 3%,
+      rgb(240, 240, 240) 3%,
+      rgb(36, 29, 61) 0%,
+      rgb(36, 29, 61) 45%,
+      rgb(243, 243, 243) 28%,
+      rgb(255, 255, 255) 83%,
+      rgb(240, 240, 240) 60%,
+      rgb(240, 240, 240) 100%
+    );
+  }
+  .header_main {
+    display: flex;
+    flex-direction:column-reverse;
+  }
+  .foto {
+    transform: translate(00px, 0px);
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+
+    color: #fff;
+    width: 500px;
+    margin: 10px auto;
+  }
+  .text a {
+    padding: 15px 30px;
+    background: #241d3d;
+    color: #fff;
+    font-weight: 400;
+
+    text-decoration: none;
+    text-align: start;
+    margin: 5px auto;
+    border: 2px solid #fff;
+    width: 20%;
+    &:hover {
+      color: #000;
+      background: #fff;
+    }
   }
 }
 /* -------------------------------------------------------------------------------------------------------------- */
